@@ -134,7 +134,7 @@ summary { padding: 21px 30px 21px 0; cursor: pointer; font-size: 17px; font-weig
 details p { color: #bac2d4; padding: 0 30px 16px 0; font-size: 15px; margin-bottom: 0; }
 .support-bottom { padding: 48px 0 90px; color: var(--muted); font-size: 14px; }
 .video-section { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 75px; padding: 25px 60px 75px; }
-video { display: block; width: 340px; max-width: 100%; background: #05060b; border: 1px solid #30364a; border-radius: 22px; margin-inline: auto; }
+video { display: block; width: 340px; height: auto; aspect-ratio: 720 / 1564; object-fit: contain; max-width: 100%; background: #05060b; border: 1px solid #30364a; border-radius: 22px; margin-inline: auto; }
 .video-notes p:not(.eyebrow) { color: var(--muted); font-size: 15px; }
 .review-prose { padding-top: 45px; border-top: 1px solid var(--border); }
 
